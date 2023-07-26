@@ -7,9 +7,9 @@ const router = express.Router();
 router.get("/", async (req, res) => {
   try {
     const todos = await Todo.find();
-    res.json(todos);
+    return res.status(200).json(todos);
   } catch (err) {
-    res.json("Error in fetching todo's", err);
+    return res.status(500).json("Error in fetching todo's", err);
   }
 });
 

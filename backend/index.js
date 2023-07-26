@@ -10,7 +10,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(passport.initialize());
-// mongodb+srv://rajendrasarak622:2FWW3BrZS2Q8pltl@cluster1.h8vxdpk.mongodb.net/?retryWrites=true&w=majority
+
 // u8xTjx1yxERNa8fr
 
 mongoose
