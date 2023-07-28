@@ -1,15 +1,19 @@
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
-const passport = require("passport");
-const localStrategy = require("passport-local");
+const dotenv = require("dotenv");
+dotenv.config();
 
 const PORT = 8000;
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    credentials: true,
+    origin: process.env.BASE_URL,
+  })
+);
 app.use(express.json());
-app.use(passport.initialize());
 
 // u8xTjx1yxERNa8fr
 
