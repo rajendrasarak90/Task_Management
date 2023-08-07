@@ -28,6 +28,9 @@ mongoose
   .then(() => console.log("Connected to DB"))
   .catch((err) => console.log("Error in connecting to DB", err));
 
+app.get("/test", (req, res) => {
+  return res.send("Server is running on port: 8000");
+});
 app.use("/", require("./routes"));
 
 app.listen(PORT, (err) => {

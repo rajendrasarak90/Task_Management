@@ -1,16 +1,12 @@
 # Task Management Assignment
 
-## Github Link Backend
+## Github Link
 
-https://github.com/rajendrasarak90/Sensegrass_backend
-
-## Github Link Frontend
-
-https://github.com/rajendrasarak90/Sensegrass_frontend
+https://github.com/rajendrasarak90/Task_Management
 
 ## Backend Link
 
-https://task-manage-backend-igm2.onrender.com/
+https://task-manage-backend-dpca.onrender.com/
 
 ## Frontend Link
 
