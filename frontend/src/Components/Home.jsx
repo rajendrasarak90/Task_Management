@@ -98,7 +98,7 @@ export default function Home() {
                 toggleCompleteTask={toggleCompleteTask}
                 todo={todo}
                 key={`todo-${index}`}
-                handleDelete={handleDelete}
+                handleDelete={() => handleDelete(todo._id)}
               />
             );
           })}

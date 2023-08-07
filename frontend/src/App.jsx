@@ -8,8 +8,9 @@ import Register from "./Components/Register";
 import Login from "./Components/Login";
 import Profile from "./Components/Profile";
 
+axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
+// console.log(process.env.REACT_APP_BASE_URL);
 export default function App() {
-  axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
   return (
     <div>
       <Router>
